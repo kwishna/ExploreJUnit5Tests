@@ -19,7 +19,20 @@ public class SerenityJunit5RunnerTest {
 }
 ```
 
+
+
 ### Resources
 Allure Junit5 - https://allurereport.org/docs/junit5
 SWTest - https://www.swtestacademy.com/category/test-automation/testing-frameworks/junit
+Properties - https://junit.org/junit5/docs/snapshot/user-guide/#writing-tests-parallel-execution-config-properties
+
+### Notes
+| Feature | Class | Type  |
+| ------ | ------ |-------|
+| Represents | Non-generic/raw types | All types (including generics) |
+| Subtypes | None (concrete class) | ParameterizedType, TypeVariable, etc. |
+| Use Case | Runtime type checks, reflection | Handling generics, libraries |
+| Convertibility | Class is a Type| Not all Type are Class|
+
+- Use Class for simple types and Type for generics. They are not directly interchangeable, but Class is a subset of Type.
 
