@@ -20,5 +20,6 @@ public class SerenityJunit5RunnerTest {
 ```
 
 ### Resources
-Allure Junit5 - https://allurereport.org/docs/junit5/
-SWTest - https://www.swtestacademy.com/category/test-automation/testing-frameworks/junit/
+Allure Junit5 - https://allurereport.org/docs/junit5
+SWTest - https://www.swtestacademy.com/category/test-automation/testing-frameworks/junit
+
