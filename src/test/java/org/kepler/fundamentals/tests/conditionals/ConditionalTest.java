@@ -8,8 +8,14 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class ConditionalTest {
     @Test
-    @EnabledOnOs(OS.WINDOWS)
+    @EnabledOnOs(OS.MAC)
     public void runOnlyOnMacTest() {
         assertEquals(1 % 0, 0);
+    }
+
+    @Test
+    @EnabledOnOs(OS.WINDOWS)
+    public void runOnlyOnWindowsTest() {
+        assertEquals(1, 0);
     }
 }
